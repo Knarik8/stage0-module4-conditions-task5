@@ -10,13 +10,13 @@ public class LeapYearPrinter {
                     System.out.println("not leap");
                 }
             } else {
-                System.out.println("not leap");
+                System.out.println("leap");
             }
         } else {
             System.out.println("not leap");
         }
     }
     public static void main(String[] args){
-        isLeapYear(1900);
+        isLeapYear(2004);
     }
 }
